@@ -174,7 +174,8 @@ function w3_close() {
                             
                             const ahref = document.createElement('a');
                             ahref.setAttribute('href', "http://google.com");
-                            ahref.setAttribute('value', day);
+                            ahref.innerText = day; 
+                            
                             dayDiv.appendChild(ahref); 
                           }
                           else{
