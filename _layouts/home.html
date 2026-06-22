@@ -25,15 +25,7 @@
             <p class="subtitle">Especifica un rango de fechas para construir tu almanaque a medida</p>
         </header>
 
-        <div class="selector-box">
-            <div class="input-group">
-                <label for="startDate">Fecha Inicial</label>
-                <input type="date" id="startDate" value="2025-01-01">
-            </div>
-            <div class="input-group">
-                <label for="endDate">Fecha Final</label>
-                <input type="date" id="endDate" value="2025-12-31">
-            </div>
+        <div class="selector-box">            
             <button class="btn-generate" onclick="generateCustomAlmanac()">Generar Almanaque</button>
         </div>
 
@@ -97,8 +89,8 @@ function w3_close() {
         const diasSemana = ["Lu", "Ma", "Mi", "Ju", "Vi", "Sá", "Do"];
 
         function generateCustomAlmanac() {
-            const startVal = document.getElementById('startDate').value;
-            const endVal = document.getElementById('endDate').value;
+            const startVal = "2025-09-28";
+            const endVal = "2026-09-27";
 
             if (!startVal || !endVal) {
                 alert("Por favor, selecciona ambas fechas.");
