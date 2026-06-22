@@ -51,27 +51,12 @@
   {% endif %}
   
   <div class="w3-container w3-center" >
-    <h4>{{page.title}} ({{ page.date | date: "%B %d, %Y" }})</h4>    
+    <h4>{{page.title}} ({{ page.date }})</h4>    
   </div>
   
   <div class="w3-container w3-padding-32">
     {{ content }}
   </div>
-
-  <div class="container">
-        <header>
-            <h1 id="yearHeader">Almanaque 2025</h1>
-            <p class="subtitle">Generación interactiva con HTML, CSS y JavaScript nativo</p>
-        </header>
-
-        <div class="controls">
-            <button class="btn active" onclick="changeYear(2025)">Año 2025</button>
-            <button class="btn" onclick="changeYear(2026)">Año 2026</button>
-        </div>
-
-        <div class="calendar-grid" id="calendarGrid"></div>
-
-    </div>
   
   <!-- Footer -->
   {% include footer.html %}
