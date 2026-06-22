@@ -163,26 +163,21 @@ function w3_close() {
                     // Iterar por los días reales del mes
                     for (let day = 1; day <= totalDays; day++) {
                         const dayDiv = document.createElement('div');
-                        dayDiv.className = 'day';
-                        dayDiv.innerText = day;
+                        
 
                         const currentFullDate = new Date(year, month, day);
 
                         // Determinar estilo según si está dentro del rango estricto de días escogidos
                         if (currentFullDate >= startDate && currentFullDate <= endDate) {
-                          if (verifyPostExists(day, month, year)){
-                            
-                            const ahref = document.createElement('a');
-                            ahref.setAttribute('href', "http://google.com");
-                            ahref.innerText = day; 
-                            
-                            dayDiv.appendChild(ahref); 
-                          }
-                          else{
-                            dayDiv.classList.add('in-range');
-                          }
+                          ahref = document.createElement('a');
+                          ahref.innerHTML = day; 
+                          ahref.ahref = 'https://reynaldocv.github.io/estrofario/'; 
+                          dayDiv.appendChild(ahref); 
+                          dayDiv.classList.add('in-range');
                         } else {
-                            dayDiv.classList.add('out-of-range');
+                          dayDiv.className = 'day';
+                          dayDiv.innerText = day;
+                          dayDiv.classList.add('out-of-range');
                         }
 
                         // Marcar domingos
