@@ -19,7 +19,23 @@
     {{content}}    
   </div>
   
-  
+  <div class="container">
+        <header>
+            <h1 id="yearHeader">Almanaque 2025</h1>
+            <p class="subtitle">Generación interactiva con HTML, CSS y JavaScript nativo</p>
+        </header>
+
+        <div class="controls">
+            <button class="btn active" onclick="changeYear(2025)">Año 2025</button>
+            <button class="btn" onclick="changeYear(2026)">Año 2026</button>
+        </div>
+
+        <div class="calendar-grid" id="calendarGrid"></div>
+
+        <div class="footer">
+            Almanaque Interactivo v2.0 • Renderizado dinámico en tiempo de ejecución
+        </div>
+    </div>
   
 
   <!-- Footer -->
