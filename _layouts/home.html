@@ -171,13 +171,14 @@ function w3_close() {
                         // Determinar estilo según si está dentro del rango estricto de días escogidos
                         if (currentFullDate >= startDate && currentFullDate <= endDate) {
                           if (verifyPostExists(day, month, year)){
-                            dayDiv.classList.add('in-range');
-                          }
-                          else{
+                            
                             const ahref = document.createElement('a');
                             ahref.setAttribute('href', "http://google.com");
                             ahref.setAttribute('value', day);
                             dayDiv.appendChild(ahref); 
+                          }
+                          else{
+                            dayDiv.classList.add('in-range');
                           }
                         } else {
                             dayDiv.classList.add('out-of-range');
