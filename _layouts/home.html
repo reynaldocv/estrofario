@@ -114,6 +114,10 @@ function w3_close() {
             const yearSection = document.createElement('div');
             yearSection.className = 'year-section';
 
+            const grid = document.createElement('div');
+            grid.className = 'calendar-grid';
+
+
 
             // Recorrer los años implicados
             for (let year = startYear; year <= endYear; year++) {
@@ -124,9 +128,7 @@ function w3_close() {
                 // Si no hay meses que pintar en este año, saltar (caso raro de seguridad)
                 if (startMonth > endMonth && year === startYear && year === endYear) continue;
 
-                const grid = document.createElement('div');
-                grid.className = 'calendar-grid';
-
+                
                 for (let month = startMonth; month <= endMonth; month++) {
                     const card = document.createElement('div');
                     card.className = 'month-card';
@@ -187,9 +189,10 @@ function w3_close() {
                     grid.appendChild(card);
                 }
 
-                yearSection.appendChild(grid);
-                output.appendChild(yearSection);
+               
             }
+            yearSection.appendChild(grid);
+            output.appendChild(yearSection);
         }
 
         // Ejecución inicial por defecto
