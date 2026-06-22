@@ -169,7 +169,7 @@ function w3_close() {
                         if (currentFullDate >= startDate && currentFullDate <= endDate) {
                           ahref = document.createElement('a');
                           ahref.innerHTML = day; 
-                          ahref.href = 'https://reynaldocv.github.io/estrofario/'; 
+                          ahref.href = '/' + {year} + '-' + {month} + '/' + {year} + "/" + {month} ; 
                           dayDiv.appendChild(ahref); 
                           dayDiv.classList.add('in-range');
                         } else {
