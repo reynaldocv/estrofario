@@ -111,6 +111,10 @@ function w3_close() {
             const output = document.getElementById('almanacOutput');
             output.innerHTML = '';
 
+            const yearSection = document.createElement('div');
+            yearSection.className = 'year-section';
+
+
             // Recorrer los años implicados
             for (let year = startYear; year <= endYear; year++) {
                 // Determinar qué meses de este año se van a pintar
@@ -119,14 +123,6 @@ function w3_close() {
 
                 // Si no hay meses que pintar en este año, saltar (caso raro de seguridad)
                 if (startMonth > endMonth && year === startYear && year === endYear) continue;
-
-                const yearSection = document.createElement('div');
-                yearSection.className = 'year-section';
-
-                const yearTitle = document.createElement('div');
-                yearTitle.className = 'year-title';
-                yearTitle.innerText = `Año ${year}`;
-                yearSection.appendChild(yearTitle);
 
                 const grid = document.createElement('div');
                 grid.className = 'calendar-grid';
