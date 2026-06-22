@@ -201,9 +201,10 @@ function w3_close() {
 
         // Ejecución inicial por defecto
         generateCustomAlmanac();
+
         const targetUrl = "https://reynaldocv.github.io/estrofario/"; 
         try {
-          const response = fetch(targetUrl, { method: 'HEAD' });
+          const response = await fetch(targetUrl, { method: 'HEAD' });
           alert(response.ok); // Returns true if status is 200-299
         } catch {
           alert("It does not work...") // Returns false if network error or 404
