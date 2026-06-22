@@ -130,7 +130,7 @@ function w3_close() {
                 
                 for (let month = startMonth; month <= endMonth; month++) {
                     const card = document.createElement('div');
-                    const monthName = `${meses[month]}-${year}`;
+                    const monthName = `${meses[month]}-${year}`.toLowerCase();
                     card.className = 'month-card';
 
                     const title = document.createElement('div');
