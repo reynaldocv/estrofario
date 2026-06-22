@@ -1,7 +1,7 @@
 ---
 layout:     poema
-title:      "Octubre 01, 2025"
-date:       2025-10-01 00:00:00 +0000
+title:      "Octubre 15, 2025"
+date:       2025-10-15 00:00:00 +0000
 category:   Octubre-2025
 ---
     Donde antes siempre hubo dos aves libres 
