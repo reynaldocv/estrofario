@@ -170,7 +170,12 @@ function w3_close() {
 
                         // Determinar estilo según si está dentro del rango estricto de días escogidos
                         if (currentFullDate >= startDate && currentFullDate <= endDate) {
+                          if (verifyPostExists(day, month, year)){
+                            dayDiv.classList.add('in-range1');
+                          }
+                          else{
                             dayDiv.classList.add('in-range');
+                          }
                         } else {
                             dayDiv.classList.add('out-of-range');
                         }
@@ -196,6 +201,18 @@ function w3_close() {
 
         // Ejecución inicial por defecto
         generateCustomAlmanac();
+
+        function verifyPostExists(day, month, year) {     
+          
+          const targetUrl = "/blog/" + {year} + "/" + {month} + "/" + {day} + "/" + {day} + ".markdown"; 
+          // Fetch the generated JSON file from your GitHub Pages site
+          const response = await fetch('/posts.json');
+          const posts = await response.json();
+
+          // Check if any post matches the target URL
+          return posts.some(post => post.url === targetUrl);
+        }
+          
     </script>
 </body>
 </html>
