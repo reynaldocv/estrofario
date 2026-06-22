@@ -2,7 +2,7 @@
 layout:     poema
 title:      "Enero 01, 2025"
 date:       2025-01-21 00:00:00 +0000
-category:   Enero 2025
+category:   Enero-2025
 ---
 
     Y la vida se resume — unicamente en morir
