@@ -130,11 +130,13 @@ function w3_close() {
                 
                 for (let month = startMonth; month <= endMonth; month++) {
                     const card = document.createElement('div');
+                    const monthName = `${meses[month]} - ${year}`;
                     card.className = 'month-card';
 
                     const title = document.createElement('div');
                     title.className = 'month-title';
-                    title.innerText = `${meses[month]} - ${year}`;
+                    title.innerText = monthName;
+                    
                     card.appendChild(title);
 
                     const weekdaysDiv = document.createElement('div');
@@ -169,7 +171,7 @@ function w3_close() {
                         if (currentFullDate >= startDate && currentFullDate <= endDate) {
                           ahref = document.createElement('a');
                           ahref.innerHTML = day; 
-                          ahref.href = '{{url.webpage}}/' + year + '-' + month + '/' + year + "/" + month ; 
+                          ahref.href = '{{url}}/' + monthName + '/' + year + "/" + month ; 
                           dayDiv.appendChild(ahref); 
                           dayDiv.classList.add('in-range');
                         } else {
