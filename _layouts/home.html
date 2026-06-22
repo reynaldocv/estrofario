@@ -152,20 +152,11 @@ function w3_close() {
             }
         }
 
-        function changeYear(year) {
-            const buttons = document.querySelectorAll('.btn');
-            buttons.forEach(btn => {
-                if (btn.innerText.includes(year)) {
-                    btn.classList.add('active');
-                } else {
-                    btn.classList.remove('active');
-                }
-            });
-            renderCalendar(year);
-        }
+        
 
         // Inicializar
         renderCalendar(2025);
+        renderCalendar(2026);
   </script>
 
 </body>
