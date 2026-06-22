@@ -132,12 +132,9 @@ function w3_close() {
                 grid.className = 'calendar-grid';
 
                 for (let month = startMonth; month <= endMonth; month++) {
-                    const card = document.createElement('div');
-                    card.className = 'month-card';
-
                     const title = document.createElement('div');
                     title.className = 'month-title';
-                    title.innerText = `${meses[month]}`;
+                    title.innerText = `${meses[month]} - ${[year]}`;
                     card.appendChild(title);
 
                     const weekdaysDiv = document.createElement('div');
