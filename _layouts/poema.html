@@ -32,7 +32,7 @@
 
   {% if prev %}
     <p class="w3-right">
-      <a href="{{site.baseurl}}{{ next.url }}">
+      <a href="{{site.baseurl}}{{ prev.url }}">
         <i class="fa fa-caret-right"><i class="fa fa-caret-right"></i></i>
         {{ prev.title }} 
         <i class="fa fa-caret-right"><i class="fa fa-caret-right"></i></i>
@@ -42,7 +42,7 @@
 
    {% if next %}
     <p class="w3-left">
-      <a href="{{site.baseurl}}{{ prev.url }}">
+      <a href="{{site.baseurl}}{{ next.url }}">
         <i class="fa fa-caret-left"><i class="fa fa-caret-left"></i></i> 
         {{ next.title }}
         <i class="fa fa-caret-left"><i class="fa fa-caret-left"></i></i>
