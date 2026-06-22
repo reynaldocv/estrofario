@@ -204,7 +204,7 @@ function w3_close() {
 
         function verifyPostExists(day, month, year) {     
           
-          const targetUrl = "/blog/" + {year} + "/" + {month} + "/" + {day} + "/" + {day} + ".markdown"; 
+          const targetUrl = "/" + {month} + "-" + {year} + "/" + {year} + "/" + {month} + "/" + {day} + "/" + {day} + ".markdown"; 
           // Fetch the generated JSON file from your GitHub Pages site
           const response = fetch('/posts.json');
           const posts = response.json();
