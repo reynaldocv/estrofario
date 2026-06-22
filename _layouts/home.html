@@ -206,8 +206,8 @@ function w3_close() {
           
           const targetUrl = "/blog/" + {year} + "/" + {month} + "/" + {day} + "/" + {day} + ".markdown"; 
           // Fetch the generated JSON file from your GitHub Pages site
-          const response = await fetch('/posts.json');
-          const posts = await response.json();
+          const response = fetch('/posts.json');
+          const posts = response.json();
 
           // Check if any post matches the target URL
           return posts.some(post => post.url === targetUrl);
