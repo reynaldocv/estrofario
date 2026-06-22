@@ -171,7 +171,7 @@ function w3_close() {
                         if (currentFullDate >= startDate && currentFullDate <= endDate) {
                           ahref = document.createElement('a');
                           ahref.innerHTML = day; 
-                          ahref.href = '{{site.baseurl}}/' + monthName + '/' + year + "/" + month + "/" + day + "/I.html"; 
+                          ahref.href = '{{site.baseurl}}/' + monthName + '/' + year + "/" + (month + 1) + "/" + day + "/I.html"; 
                           dayDiv.appendChild(ahref); 
                           dayDiv.classList.add('in-range');
                         } else {
