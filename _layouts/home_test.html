@@ -1,63 +1,151 @@
 <!DOCTYPE html>
-<html>
-{% include head.html %}
-<body class="w3-content" style="max-width:1200px">
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almanaque Dinámico 2025</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --sunday: #ef4444;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+        }
 
-<!-- Sidebar/menu -->
-{% include leftside.html %}
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:250px">
-  
-  <!-- Push down content on small screens -->
-  <div class="w3-hide-large" style="margin-top:83px"></div>
-  
-  <!-- Top header -->
-  <div class="w3-container w3-padding-32">
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+        }
 
-    
-  {% include header.html %}
-  
-{% assign items = site.posts %}
-  {% for item in items %}
-    {% if item.path == page.path %}
-      {% unless forloop.first %}
-        {% assign prev = prev_item %}
-      {% endunless %}
-      {% unless forloop.last %}
-        {% assign next = items[forloop.index] %}
-      {% endunless %}
-    {% endif %}
-    {% assign prev_item = item %}
-  {% endfor %}
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
-  {% if prev %}
-    <p class="w3-left">
-      <a href="{{site.baseurl}}{{ prev.url }}">
-        <i class="fa fa-caret-left"><i class="fa fa-caret-left"></i></i> 
-        {{ prev.title }}
-        <i class="fa fa-caret-left"><i class="fa fa-caret-left"></i></i>
-      </a>
-    </p>
-  {% endif %}
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
 
-  {% if next %}
-    <p class="w3-right">
-      <a href="{{site.baseurl}}{{ next.url }}">
-        <i class="fa fa-caret-right"><i class="fa fa-caret-right"></i></i>
-        {{ next.title }} 
-        <i class="fa fa-caret-right"><i class="fa fa-caret-right"></i></i>
-      </a>
-    </p>
-  {% endif %}
-  <div class="w3-container w3-center" >
-    <h4>{{page.title}} ({{ page.date | date: "%B %d, %Y" }})</h4>    
-  </div>
-  
-  <div class="w3-container w3-padding-32">
-    {{ content }}
-  </div>
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: var(--text-main);
+        }
 
-  <div class="container">
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            color: var(--text-muted);
+            transition: all 0.2s ease;
+        }
+
+        .btn.active, .btn:hover {
+            background-color: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .month-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            padding: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+
+        .month-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 15px;
+            color: var(--text-main);
+            text-transform: capitalize;
+        }
+
+        .weekdays {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            text-align: center;
+            font-weight: 600;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .days {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            text-align: center;
+            gap: 5px;
+        }
+
+        .day {
+            padding: 8px 0;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border-radius: 6px;
+            color: var(--text-main);
+        }
+
+        .day.empty {
+            color: transparent;
+        }
+
+        .day.sunday {
+            color: var(--sunday);
+            font-weight: 600;
+        }
+
+        .day:not(.empty):hover {
+            background-color: #f1f5f9;
+            cursor: pointer;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border);
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
         <header>
             <h1 id="yearHeader">Almanaque 2025</h1>
             <p class="subtitle">Generación interactiva con HTML, CSS y JavaScript nativo</p>
@@ -74,52 +162,8 @@
             Almanaque Interactivo v2.0 • Renderizado dinámico en tiempo de ejecución
         </div>
     </div>
-  
-  <!-- Footer -->
-  {% include footer.html %}
 
-  </div>
-  <!-- End page content -->
-</div>
-
-<!-- Newsletter Modal -->
-<!--<div id="contact" class="w3-modal">
-  <div class="w3-modal-content w3-animate-zoom" style="padding:32px">
-    <div class="w3-container w3-white">
-      <i onclick="document.getElementById('contact').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>
-      <h2 class="w3-wide">Notes</h2>      
-      <p></p>
-    </div>
-  </div>
-</div>
--->
-<script>
-// Accordion 
-function myAccFunc(id) {
-  var x = document.getElementById("demoAcc-"+id);
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else {
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-
-// Click on the "Jeans" link on page load to open the accordion for demo purposes
-document.getElementById("myBtn").click();
-
-
-// Open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
-}
- 
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("myOverlay").style.display = "none";
-}
-</script>
- <script>
+    <script>
         const meses = [
             "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
             "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
@@ -204,6 +248,5 @@ function w3_close() {
         // Inicializar
         renderCalendar(2025);
     </script>
-
 </body>
 </html>
