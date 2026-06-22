@@ -159,7 +159,7 @@
             visibility: hidden;
         }
 
-        .day.sunday {
+        .day.sunday > a {
             color: var(--sunday);
             font-weight: 600;
         }
