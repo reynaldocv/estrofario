@@ -30,26 +30,26 @@
     {% assign prev_item = item %}
   {% endfor %}
 
-  {% if next %}
+  {% if prev %}
     <p class="w3-right">
       <a href="{{site.baseurl}}{{ next.url }}">
-        <i class="fa fa-caret-right"><i class="fa fa-caret-left"></i></i>
-        {{ next.title }} 
-        <i class="fa fa-caret-right"><i class="fa fa-caret-left"></i></i>
+        <i class="fa fa-caret-right"><i class="fa fa-caret-right"></i></i>
+        {{ prev.title }} 
+        <i class="fa fa-caret-right"><i class="fa fa-caret-right"></i></i>
       </a>
     </p>
   {% endif %}
 
-   {% if prev %}
+   {% if next %}
     <p class="w3-left">
       <a href="{{site.baseurl}}{{ prev.url }}">
-        <i class="fa fa-caret-left"><i class="fa fa-caret-right"></i></i> 
-        {{ prev.title }}
-        <i class="fa fa-caret-left"><i class="fa fa-caret-right"></i></i>
+        <i class="fa fa-caret-left"><i class="fa fa-caret-left"></i></i> 
+        {{ next.title }}
+        <i class="fa fa-caret-left"><i class="fa fa-caret-left"></i></i>
       </a>
     </p>
   {% endif %}
-
+  
   <div class="w3-container w3-center" >
     <h4>{{page.title}} ({{ page.date | date: "%B %d, %Y" }})</h4>    
   </div>
