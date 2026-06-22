@@ -202,15 +202,14 @@ function w3_close() {
         // Ejecución inicial por defecto
         generateCustomAlmanac();
 
-        function verifyPostExists(day, month, year) {     
-          
+        function verifyPostExists(day, month, year) {    
           const targetUrl = "/" + {month} + "-" + {year} + "/" + {year} + "/" + {month} + "/" + {day} + "/" + {day} + ".markdown"; 
-          // Fetch the generated JSON file from your GitHub Pages site
-          const response = fetch('/posts.json');
-          const posts = response.json();
-
-          // Check if any post matches the target URL
-          return posts.some(post => post.url === targetUrl);
+          try {
+            const response = fetch(url, { method: 'HEAD' });
+            return response.ok; // Returns true if status is 200-299
+          } catch {
+            return false; // Returns false if network error or 404
+          }
         }
           
     </script>
