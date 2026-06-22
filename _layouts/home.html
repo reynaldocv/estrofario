@@ -21,14 +21,26 @@
   
   <div class="container">
         <header>
-            <h1 id="yearHeader">Almanaque 2025</h1>
-            <p class="subtitle">Generación interactiva con HTML, CSS y JavaScript nativo</p>
+            <h1>Generador de Almanaque Personalizado</h1>
+            <p class="subtitle">Especifica un rango de fechas para construir tu almanaque a medida</p>
         </header>
-       
+
+        <div class="selector-box">
+            <div class="input-group">
+                <label for="startDate">Fecha Inicial</label>
+                <input type="date" id="startDate" value="2025-01-01">
+            </div>
+            <div class="input-group">
+                <label for="endDate">Fecha Final</label>
+                <input type="date" id="endDate" value="2025-12-31">
+            </div>
+            <button class="btn-generate" onclick="generateCustomAlmanac()">Generar Almanaque</button>
+        </div>
+
         <div id="almanacOutput"></div>
 
         <div class="footer">
-            Almanaque Interactivo v2.0 • Renderizado dinámico en tiempo de ejecución
+            Almanaque Dinámico a medida • Construido con HTML y JavaScript
         </div>
     </div>
   
@@ -85,8 +97,8 @@ function w3_close() {
         const diasSemana = ["Lu", "Ma", "Mi", "Ju", "Vi", "Sá", "Do"];
 
         function generateCustomAlmanac() {
-            const startVal = "2025-09-28";
-            const endVal = "2026-09-27";
+            const startVal = document.getElementById('startDate').value;
+            const endVal = document.getElementById('endDate').value;
 
             if (!startVal || !endVal) {
                 alert("Por favor, selecciona ambas fechas.");
