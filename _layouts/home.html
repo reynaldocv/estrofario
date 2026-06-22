@@ -77,82 +77,123 @@ function w3_close() {
   document.getElementById("myOverlay").style.display = "none";
 }
 </script>
- <script>
+<script>
         const meses = [
             "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
             "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
         ];
-        
         const diasSemana = ["Lu", "Ma", "Mi", "Ju", "Vi", "Sá", "Do"];
 
-        function renderCalendar(year) {
-            document.getElementById('yearHeader').innerText = `Almanaque ${year}`;
-            const grid = document.getElementById('calendarGrid');
-            grid.innerHTML = '';
+        function generateCustomAlmanac() {
+            const startVal = "2025-09-28";
+            const endVal = "2026-09-27";
 
-            for (let month = 0; month < 12; month++) {
-                const card = document.createElement('div');
-                card.className = 'month-card';
+            if (!startVal || !endVal) {
+                alert("Por favor, selecciona ambas fechas.");
+                return;
+            }
 
-                const title = document.createElement('div');
-                title.className = 'month-title';
-                title.innerText = meses[month];
-                card.appendChild(title);
+            const startDate = new Date(startVal + 'T00:00:00');
+            const endDate = new Date(endVal + 'T00:00:00');
 
-                const weekdaysDiv = document.createElement('div');
-                weekdaysDiv.className = 'weekdays';
-                diasSemana.forEach(d => {
-                    const dayName = document.createElement('div');
-                    dayName.innerText = d;
-                    weekdaysDiv.appendChild(dayName);
-                });
-                card.appendChild(weekdaysDiv);
+            if (startDate > endDate) {
+                alert("La fecha inicial no puede ser posterior a la fecha final.");
+                return;
+            }
 
-                const daysDiv = document.createElement('div');
-                daysDiv.className = 'days';
+            const startYear = startDate.getFullYear();
+            const endYear = endDate.getFullYear();
 
-                // Primer día del mes (0 = Domingo, 1 = Lunes, etc.)
-                let firstDayIndex = new Date(year, month, 1).getDay();
-                // Ajustar para que la semana empiece en Lunes (0 -> Lu, 6 -> Do)
-                // En JS: 0=Dom, 1=Lun, 2=Mar, 3=Mie, 4=Jue, 5=Vie, 6=Sab
-                let adjustedFirstDay = firstDayIndex === 0 ? 6 : firstDayIndex - 1;
+            const output = document.getElementById('almanacOutput');
+            output.innerHTML = '';
 
-                const totalDays = new Date(year, month + 1, 0).getDate();
+            // Recorrer los años implicados
+            for (let year = startYear; year <= endYear; year++) {
+                // Determinar qué meses de este año se van a pintar
+                let startMonth = (year === startYear) ? startDate.getMonth() : 0;
+                let endMonth = (year === endYear) ? endDate.getMonth() : 11;
 
-                // Espacios vacíos
-                for (let i = 0; i < adjustedFirstDay; i++) {
-                    const emptyDay = document.createElement('div');
-                    emptyDay.className = 'day empty';
-                    emptyDay.innerText = '';
-                    daysDiv.appendChild(emptyDay);
-                }
+                // Si no hay meses que pintar en este año, saltar (caso raro de seguridad)
+                if (startMonth > endMonth && year === startYear && year === endYear) continue;
 
-                // Días del mes
-                for (let day = 1; day <= totalDays; day++) {
-                    const dayDiv = document.createElement('div');
-                    dayDiv.className = 'day';
-                    dayDiv.innerText = day;
+                const yearSection = document.createElement('div');
+                yearSection.className = 'year-section';
 
-                    // Verificar si es Domingo
-                    let currentDayOfWeek = (adjustedFirstDay + day - 1) % 7;
-                    if (currentDayOfWeek === 6) {
-                        dayDiv.classList.add('sunday');
+                const yearTitle = document.createElement('div');
+                yearTitle.className = 'year-title';
+                yearTitle.innerText = `Año ${year}`;
+                yearSection.appendChild(yearTitle);
+
+                const grid = document.createElement('div');
+                grid.className = 'calendar-grid';
+
+                for (let month = startMonth; month <= endMonth; month++) {
+                    const card = document.createElement('div');
+                    card.className = 'month-card';
+
+                    const title = document.createElement('div');
+                    title.className = 'month-title';
+                    title.innerText = `${meses[month]}`;
+                    card.appendChild(title);
+
+                    const weekdaysDiv = document.createElement('div');
+                    weekdaysDiv.className = 'weekdays';
+                    diasSemana.forEach(d => {
+                        const dayName = document.createElement('div');
+                        dayName.innerText = d;
+                        weekdaysDiv.appendChild(dayName);
+                    });
+                    card.appendChild(weekdaysDiv);
+
+                    const daysDiv = document.createElement('div');
+                    daysDiv.className = 'days';
+
+                    let firstDayIndex = new Date(year, month, 1).getDay();
+                    let adjustedFirstDay = firstDayIndex === 0 ? 6 : firstDayIndex - 1;
+                    const totalDays = new Date(year, month + 1, 0).getDate();
+
+                    // Rellenar días vacíos al inicio de la semana
+                    for (let i = 0; i < adjustedFirstDay; i++) {
+                        const emptyDay = document.createElement('div');
+                        emptyDay.className = 'day empty';
+                        daysDiv.appendChild(emptyDay);
                     }
 
-                    daysDiv.appendChild(dayDiv);
+                    // Iterar por los días reales del mes
+                    for (let day = 1; day <= totalDays; day++) {
+                        const dayDiv = document.createElement('div');
+                        dayDiv.className = 'day';
+                        dayDiv.innerText = day;
+
+                        const currentFullDate = new Date(year, month, day);
+
+                        // Determinar estilo según si está dentro del rango estricto de días escogidos
+                        if (currentFullDate >= startDate && currentFullDate <= endDate) {
+                            dayDiv.classList.add('in-range');
+                        } else {
+                            dayDiv.classList.add('out-of-range');
+                        }
+
+                        // Marcar domingos
+                        let currentDayOfWeek = (adjustedFirstDay + day - 1) % 7;
+                        if (currentDayOfWeek === 6) {
+                            dayDiv.classList.add('sunday');
+                        }
+
+                        daysDiv.appendChild(dayDiv);
+                    }
+
+                    card.appendChild(daysDiv);
+                    grid.appendChild(card);
                 }
 
-                card.appendChild(daysDiv);
-                grid.appendChild(card);
+                yearSection.appendChild(grid);
+                output.appendChild(yearSection);
             }
         }
 
-        
-
-        // Inicializar
-        renderCalendar(2025);
-        renderCalendar(2026);
-  </script>
-
+        // Ejecución inicial por defecto
+        generateCustomAlmanac();
+    </script>
 </body>
 </html>
