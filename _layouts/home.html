@@ -174,7 +174,10 @@ function w3_close() {
                             dayDiv.classList.add('in-range');
                           }
                           else{
-                            dayDiv.classList.add('in-range1');
+                            const ahref = document.createElement('a');
+                            ahref.setAttribute('href', "http://google.com");
+                            ahref.setAttribute('value', day);
+                            dayDiv.appendChild(ahref); 
                           }
                         } else {
                             dayDiv.classList.add('out-of-range');
