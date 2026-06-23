@@ -1,0 +1,12 @@
+---
+layout:     poema
+title:      "Noviembre 01, 2025"
+date:       2025-11-01 00:00:00 +0000
+category:   Noviembre-2025
+---
+    Primero de noviembre — los días son de siempre,
+    aunque ahora el cielo — sin ti — se hizo más gris.
+    Sin sol — ya no hay sentido en ir a nadar al mar.
+    Sin vos — estoy rodeado por un velo de soledad
+
+Corregir...     
