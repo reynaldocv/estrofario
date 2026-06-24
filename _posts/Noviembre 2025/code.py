@@ -12,7 +12,7 @@ for i in range(1, 32):
 
     markdown_content = """---
 layout:     poema
-title:      """ + Months[m] + """ """ + day + """, """ + year + """"
+title:      " """ + Months[m] + " " + day + """, """ + year + """ "
 date:       """ + year + """-""" + month + """-""" + day + """ 00:00:00 +0000
 category:   """ + Months[m] + """-""" + year + """
 ---"""

@@ -1,7 +1,0 @@
----
-        layout:     poema
-        title:      Febrero 09, 2026"
-        date:       2026-02-09 00:00:00 +0000
-        category:   Febrero-2026
-        ---
-    

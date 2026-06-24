@@ -1,6 +1,6 @@
 
-year = "2026"
-m = 1
+year = "2025"
+m = 12
 month = "0" + str(m) if m < 10 else str(m)
 
 Months = ["", "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setiembre", "Octubre", "Noviembre", "Diciembre"]
@@ -11,12 +11,11 @@ for i in range(1, 32):
     file_name = year + "-" + month + "-" + day + "-I.markdown"
 
     markdown_content = """---
-        layout:     poema
-        title:      """ + Months[m] + """ """ + day + """, """ + year + """"
-        date:       """ + year + """-""" + month + """-""" + day + """ 00:00:00 +0000
-        category:   """ + Months[m] + """-""" + year + """
-        ---
-    """
+layout:     poema
+title:      " """ + Months[m] + " " + day + """, """ + year + """ "
+date:       """ + year + """-""" + month + """-""" + day + """ 00:00:00 +0000
+category:   """ + Months[m] + """-""" + year + """
+---"""
 
     # Create and write to the file
     with open(file_name, "w", encoding="utf-8") as file:

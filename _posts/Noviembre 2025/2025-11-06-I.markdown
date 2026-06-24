@@ -1,6 +1,6 @@
 ---
 layout:     poema
-title:      Noviembre 06, 2025"
+title:      " Noviembre 06, 2025 "
 date:       2025-11-06 00:00:00 +0000
 category:   Noviembre-2025
 ---

@@ -1,7 +1,0 @@
----
-        layout:     poema
-        title:      Febrero 27, 2026"
-        date:       2026-02-27 00:00:00 +0000
-        category:   Febrero-2026
-        ---
-    
