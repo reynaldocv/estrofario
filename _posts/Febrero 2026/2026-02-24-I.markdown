@@ -1,0 +1,12 @@
+---
+layout:     poema
+title:      " Febrero 24, 2026 "
+date:       2026-02-24 00:00:00 +0000
+category:   Febrero-2026
+---
+    Me cansé de que digas «que hay más peces en el mar»,
+    y sabes que a mí, no me gusta el mar y mucho menos, pescar...
+    Yo solo te quiero a tí, solo a ti;
+    mas como llegas, te vas, 
+    eres las olas del mar...
+

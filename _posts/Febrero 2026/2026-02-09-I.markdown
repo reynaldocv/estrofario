@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Febrero 09, 2026 "
+date:       2026-02-09 00:00:00 +0000
+category:   Febrero-2026
+---
+    No conozco a nadie como ella
+    que danze bajo una tormenta
+    con una sonrisa brillante...
+    No hay nadie como la Petruska.
