@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Marzo 15, 2026 "
+date:       2026-03-15 00:00:00 +0000
+category:   Marzo-2026
+---
+    A veces me aturde la bulla de la sociedad
+    y me da por envolverme en un silencio total...
+    Otras, me enferma el silencio y su anesteciante paz; 
+    remedio: volver a la barullenta realidad...
+

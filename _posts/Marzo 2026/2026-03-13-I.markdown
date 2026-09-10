@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Marzo 13, 2026 "
+date:       2026-03-13 00:00:00 +0000
+category:   Marzo-2026
+---
+    Había mil senderos para ir al norte;
+    mil caminos al sur; otros mil, al este;
+    ni hablar del oeste: eran otros mil más.
+    Mas el mar me convenció de navegar.
+

@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Marzo 16, 2026 "
+date:       2026-03-16 00:00:00 +0000
+category:   Marzo-2026
+---
+    Levanté la mirada a un dios muerto
+    y me vi en sus mil órbitas vacías...
+    No me dijo nada, ni una sola palabra;
+    mas esbozó una sonrisa solitaria...

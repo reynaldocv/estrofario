@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Marzo 28, 2026 "
+date:       2026-03-28 00:00:00 +0000
+category:   Marzo-2026
+---
+    Ella es la parca:
+    el rayo que te alcanza y que te mata, 
+    el fulgor en medio del corazón, 
+    preludio de un infarto abrasador...

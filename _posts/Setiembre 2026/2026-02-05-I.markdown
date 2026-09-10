@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Febrero 05, 2026 "
+date:       2026-02-05 00:00:00 +0000
+category:   Febrero-2026
+---
+    Un ave en este verano
+    busca agua para su sed.
+    Vuela en el sol inclemente
+    ¡Ícaro... en busca de fé!

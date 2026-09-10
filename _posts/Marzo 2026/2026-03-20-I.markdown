@@ -1,0 +1,12 @@
+---
+layout:     poema
+title:      " Marzo 20, 2026 "
+date:       2026-03-20 00:00:00 +0000
+category:   Marzo-2026
+---
+    Yo no escribo para nadie,
+    ni escribo para mí mismo.
+    Escribo porque alguien lo tiene que hacer, 
+    porque existen rimas y estrofas en la psique 
+    queriendo nacer...
+

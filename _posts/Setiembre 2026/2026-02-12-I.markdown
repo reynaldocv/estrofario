@@ -1,0 +1,12 @@
+---
+layout:     poema
+title:      " Febrero 12, 2026 "
+date:       2026-02-12 00:00:00 +0000
+category:   Febrero-2026
+---
+    Me quedé sin palabras...
+    sin rimas, sin estrofas.
+    Y ahí va la blanca señora: toda llena,
+    toda bella...
+    Y yo aquí, sin saber qué profesarle,
+    sin palabras para confesarme...

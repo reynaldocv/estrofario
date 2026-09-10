@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Febrero 26, 2026 "
+date:       2026-02-26 00:00:00 +0000
+category:   Febrero-2026
+---
+    Perdidos en el mar:
+    con un cielo sin estrellas,
+    sin una brújula a consultar, 
+    sin viento que soplar...
+    Así estamos tú y yo: atrapados en el mar...

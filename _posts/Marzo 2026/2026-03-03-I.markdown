@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Marzo 03, 2026 "
+date:       2026-03-03 00:00:00 +0000
+category:   Marzo-2026
+---
+    Cuando veas que estoy ausente,
+    no es que me haya olvidado de ti...
+    Fue que mi ser se sirvió una copa de paz:
+    la brisa que besa tus mejillas y se va.

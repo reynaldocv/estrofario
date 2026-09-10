@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Marzo 10, 2026 "
+date:       2026-03-10 00:00:00 +0000
+category:   Marzo-2026
+---
+    Día a día, el mundo se hace más silencioso...
+    Y no hay personas, ni sentimientos, ni ideas.
+    Al no haber ruido alguno, algo hace presencia
+    dentro de mí... es el latir de mi existencia...
+

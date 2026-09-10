@@ -1,0 +1,12 @@
+---
+layout:     poema
+title:      " Marzo 25, 2026 "
+date:       2026-03-25 00:00:00 +0000
+category:   Marzo-2026
+---
+    Y creí saber lo que quería...
+    Quería mil libros leídos,
+    algunos sonetos escritos...
+    Mas entendí
+    que te quería en mis latidos,
+    quería tu voz en mis oídos.

@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Marzo 14, 2026 "
+date:       2026-03-14 00:00:00 +0000
+category:   Marzo-2026
+---
+    Comencé a escribir para que los monstruos se fueran...
+    Y se fueron. ¿Se fueron? No lo sé. No sabría qué decir.
+    Quizás se mantienen en silencio para poderme eludir; 
+    y, una vez confiado de que no están, volver a aparecer.

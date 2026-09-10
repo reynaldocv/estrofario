@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Marzo 22, 2026 "
+date:       2026-03-22 00:00:00 +0000
+category:   Marzo-2026
+---
+    Y tus recuerdos conviven en mí...
+    como la última vez que nos vimos,
+    como lo último que nos dijimos,
+    como tú y yo siendo algo más que íntimos.

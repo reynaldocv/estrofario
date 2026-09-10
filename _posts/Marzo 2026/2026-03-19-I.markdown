@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Marzo 19, 2026 "
+date:       2026-03-19 00:00:00 +0000
+category:   Marzo-2026
+---
+    Vienes y te vas
+    como las olas del mar...
+    Y quedan tus recuerdos
+    como botes... sin remos.

@@ -1,0 +1,12 @@
+---
+layout:     poema
+title:      " Marzo 24, 2026 "
+date:       2026-03-24 00:00:00 +0000
+category:   Marzo-2026
+---
+    Vocifero su nombre para pedir ayuda
+    y sé que nadie, por mí, vendrá...
+    Que él se fue y que no volverá...
+    Entendí a las malas, a regañadientes 
+    que estaba condenado a aprender de él
+    para sobrellevar un mundo donde él ya no está...

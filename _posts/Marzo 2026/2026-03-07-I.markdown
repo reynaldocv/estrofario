@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Marzo 07, 2026 "
+date:       2026-03-07 00:00:00 +0000
+category:   Marzo-2026
+---
+    No hay mejor escenario que un cielo nublado
+    para sobrepensar en la miseria humana.
+    El sol y la esperanza yacen opacados, 
+    mientras el viento y la lluvia hacen de las suyas...
+

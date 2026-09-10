@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Marzo 01, 2026 "
+date:       2026-03-01 00:00:00 +0000
+category:   Marzo-2026
+---
+    Quiero ahogar la vida en tinta 
+    y derramarlas sobre el papel; 
+    mas la escrita no me ayuda:
+    carcome lo poco que me queda de fe...

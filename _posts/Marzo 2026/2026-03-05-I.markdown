@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Marzo 05, 2026 "
+date:       2026-03-05 00:00:00 +0000
+category:   Marzo-2026
+---
+    Mil sensaciones por relatar, 
+    pocas palabras para usar...
+    Sé como va a finalizar
+    aquello que no quiere rimar.
+

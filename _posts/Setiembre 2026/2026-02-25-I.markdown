@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Febrero 25, 2026 "
+date:       2026-02-25 00:00:00 +0000
+category:   Febrero-2026
+---
+    La vez que nos despedimos
+    quise que me llevaras en tus bolsillos...
+    Y lo siento...
+    Ahí me enteré que le tenía miedo 
+    a los espacios pequeños...

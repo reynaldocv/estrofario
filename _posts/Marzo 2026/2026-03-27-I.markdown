@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Marzo 27, 2026 "
+date:       2026-03-27 00:00:00 +0000
+category:   Marzo-2026
+---
+    Como mi cansancio besando tus mil pisadas.
+    Como buscar estrellas en una noche nublada.
+    Como chocolate caliente en un día de verano.
+    Hay sensaciones inútiles en una vida calmada.
+

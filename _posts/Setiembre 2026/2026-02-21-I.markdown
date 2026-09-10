@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Febrero 21, 2026 "
+date:       2026-02-21 00:00:00 +0000
+category:   Febrero-2026
+---
+    No sé cuántos días llevo escribiendo estrofas,
+    y estoy agotado, acabado por escapar de la prosa...
+    Tengo sentimientos queriendo hacerse de mil palabras,
+    mas, por ahora, son mis prisioneros,,, sin sol ni esperanza.
+
