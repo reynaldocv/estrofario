@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Abril 05, 2026 "
+date:       2026-04-05 00:00:00 +0000
+category:   Abril-2026
+---
+    Su pelambre era trigo trillado,
+    sus largos dedos hacían de arado.
+    Era de harina blanca;
+    pan que fue horneado en casa...

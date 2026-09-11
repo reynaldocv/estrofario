@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Abril 01, 2026 "
+date:       2026-04-01 00:00:00 +0000
+category:   Abril-2026
+---
+    No soy bueno en esto de escribir versos; 
+    mucho menos, escribiendo sonetos.
+    No soy bueno en eso de escribir rimas; 
+    menos, sobre las cosas de la vida.

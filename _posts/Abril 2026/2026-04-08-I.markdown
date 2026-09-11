@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Abril 08, 2026 "
+date:       2026-04-08 00:00:00 +0000
+category:   Abril-2026
+---
+    Se siente...
+    algo que no tiene — precedentes.
+    Cuchilla que cercerna la piel, 
+    revólver que acaricia la sien...
+

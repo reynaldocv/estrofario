@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Abril 10, 2026 "
+date:       2026-04-10 00:00:00 +0000
+category:   Abril-2026
+---
+    Quise saber del porqué de las cosas...
+    y el eco musitó «Deja de molestar a Dios».
+    Extrañado, pregunté «¿Quién eres?».
+    «Soy lo que queda de tu Dios, su sonrisa...» respondió.
+

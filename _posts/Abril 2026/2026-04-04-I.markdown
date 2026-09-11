@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Abril 04, 2026 "
+date:       2026-04-04 00:00:00 +0000
+category:   Abril-2026
+---
+    Ella camina y me ve de reojo — finge no verme.
+    Yo no tengo problemas — pero que mierda mi suerte.
+    Maldita sea — es tan bella vil estrella — tan gentil
+    e impoluta — es perfecta — hasta para pasar de mí.
+

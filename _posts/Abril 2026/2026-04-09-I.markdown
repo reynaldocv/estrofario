@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Abril 09, 2026 "
+date:       2026-04-09 00:00:00 +0000
+category:   Abril-2026
+---
+Es mi carne que me quiere dejar desolado.
+La vida — que quiere desentenderse de mí
+Es mi corazón — que quiere dejar de latir. 
+Se resiste — lucha para yo poder escribir.
+

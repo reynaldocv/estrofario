@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Abril 07, 2026 "
+date:       2026-04-07 00:00:00 +0000
+category:   Abril-2026
+---
+    Dejen que el piano suene, 
+    que sus notas vengan como metralla.
+    que su melodía sea mi requiem...
+    Dulce melodía de muerte...
+
