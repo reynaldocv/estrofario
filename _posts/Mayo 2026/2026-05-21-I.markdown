@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Mayo 21, 2026 "
+date:       2026-05-21 00:00:00 +0000
+category:   Mayo-2026
+---
+    Ya no tengo mucho de qué escribir; 
+    salvo, algunas pocas palabras...
+    Quizás escriba de la música que nace de tu cama
+    cuando tienes ganas de vivir...

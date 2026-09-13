@@ -1,0 +1,12 @@
+---
+layout:     poema
+title:      " Junio 14, 2026 "
+date:       2026-06-14 00:00:00 +0000
+category:   Junio-2026
+---
+    Fui gran amigo de un árbol... 
+    y me caía bien...
+    No era de dar consejos rápidos. 
+    Es más, 
+    nos sentíamos muy cómodos 
+    con los silencios incómodos...

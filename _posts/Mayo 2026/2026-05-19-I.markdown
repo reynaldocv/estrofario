@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Mayo 19, 2026 "
+date:       2026-05-19 00:00:00 +0000
+category:   Mayo-2026
+---
+    En esta noche, caminando a un destino conocido,
+    me acordé de una promesa que hice ya hace mucho tiempo...
+    Promesa donde la vida ya no me pertenecía:
+    bajo la garúa hoy... di lo que ya no tenía de vida...

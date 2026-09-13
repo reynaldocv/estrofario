@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Junio 25, 2026 "
+date:       2026-06-25 00:00:00 +0000
+category:   Junio-2026
+---
+    El día que no quiera caminar
+    mi ánima ha de sufrir...
+    El día que no pueda caminar
+    no habrá razón para seguir...
+    

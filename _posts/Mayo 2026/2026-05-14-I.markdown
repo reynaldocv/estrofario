@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Mayo 14, 2026 "
+date:       2026-05-14 00:00:00 +0000
+category:   Mayo-2026
+---
+    En mi ignorancia quise creer que era mía,
+    mas encontré algo que es mío: mis vivencias.
+    Mientras viva, mis vivencias son solo mías,
+    y muerto yo — pertenecerán al olvido.
+

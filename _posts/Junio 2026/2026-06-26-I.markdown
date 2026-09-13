@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Junio 26, 2026 "
+date:       2026-06-26 00:00:00 +0000
+category:   Junio-2026
+---
+    Lo que no te has dado cuenta,
+    niña, es que tú estás loca.
+    Y yo, como un completo idiota,
+    voy enamorado de la locura... de tu boca.

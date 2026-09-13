@@ -1,0 +1,12 @@
+---
+layout:     poema
+title:      " Mayo 17, 2026 "
+date:       2026-05-17 00:00:00 +0000
+category:   Mayo-2026
+---
+    No hay ningún dios a quién amar:
+    si lo hubiese, este no necesitaría de tu amor; 
+    sí existiese, no necesitaría de tu imperfección...
+    Si existiese, crearía a diez como tú
+    para darte algo de valor... para luego quitártelo.
+

@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Mayo 22, 2026 "
+date:       2026-05-22 00:00:00 +0000
+category:   Mayo-2026
+---
+Adiós a mis preocupaciones...
+Siento como si nunca las hubiese tenido,
+como si nunca hubiesen venido — ¿habrán venido
+y a la rápida, sin decir nada, se habrán ido?
+

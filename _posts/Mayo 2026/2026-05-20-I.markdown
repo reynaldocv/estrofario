@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Mayo 20, 2026 "
+date:       2026-05-20 00:00:00 +0000
+category:   Mayo-2026
+---
+    Es cruento simplificar los sentimientos
+    en una estrofa de solo pocos versos...
+    Es como si de pronto de la nada lloviera; 
+    garúa de emociones y nadie lo sintiera...

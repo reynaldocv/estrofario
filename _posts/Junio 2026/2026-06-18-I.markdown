@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Junio 18, 2026 "
+date:       2026-06-18 00:00:00 +0000
+category:   Junio-2026
+---
+    Que si no es el norte — es el sur, 
+    si no es el este — es el oeste.
+    Si no eres tú metiéndote en problemas,
+    es otro que te arrastra a sus problemas...

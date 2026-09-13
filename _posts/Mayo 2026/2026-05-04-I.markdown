@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Mayo 04, 2026 "
+date:       2026-05-04 00:00:00 +0000
+category:   Mayo-2026
+---
+    ¿Cómo saber de lo que no sé?
+    Probablemente lo que no sé
+    de alguna manera se perdió,
+    o fácil — fue que nunca existió.

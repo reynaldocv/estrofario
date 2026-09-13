@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Junio 21, 2026 "
+date:       2026-06-21 00:00:00 +0000
+category:   Junio-2026
+---
+Lejos de aquí
+hay un lugar para mí,
+donde no hay ruido...
+donde — ¿tú estás ahí?...

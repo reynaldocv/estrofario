@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Mayo 06, 2026 "
+date:       2026-05-06 00:00:00 +0000
+category:   Mayo-2026
+---
+    ¿Me quedarán cinco años de vida?
+    ¿Será hora de hacer lo que quiero,
+    hora de regresar a mi hogar?
+    Creo que mejor — haré de ermitaño...

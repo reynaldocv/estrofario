@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Junio 27, 2026 "
+date:       2026-06-27 00:00:00 +0000
+category:   Junio-2026
+---
+    En mis primeros años — caminé sin sentido alguno;
+    y hoy... solo sé caminar porque no tengo más que hacer...
+    Camino: para sanar, ya que la música no me basta;
+    para hablar conmigo y reírme de mis chistes sin gracia...

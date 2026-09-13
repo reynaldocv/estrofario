@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Junio 03, 2026 "
+date:       2026-06-03 00:00:00 +0000
+category:   Junio-2026
+---
+    ¡Yo añoraba la vida!
+    Mas la vida como viento gélido
+    vino a mí de un vil infierno tétrico.
+    Me abraza — ella de pocos me mata...

@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Mayo 01, 2026 "
+date:       2026-05-01 00:00:00 +0000
+category:   Mayo-2026
+---
+    Rosa — florecilla tardía de verano,
+    reventaste el capullo sobre un verde prado...
+    Hueles fresca cual rocío de la mañana,
+    aroma para compañía de una dama.

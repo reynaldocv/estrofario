@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Mayo 11, 2026 "
+date:       2026-05-11 00:00:00 +0000
+category:   Mayo-2026
+---
+    Una vela de bondad, 
+    Un destello de esperanza...
+    La fe que, por mi estado mental, 
+    tristemente — tengo que apagar...

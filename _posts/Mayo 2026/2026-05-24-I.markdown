@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Mayo 24, 2026 "
+date:       2026-05-24 00:00:00 +0000
+category:   Mayo-2026
+---
+    Y me encontré... más que perdido
+    viendo sus ojos...
+    La luz que entra por la ventana,
+    su cuerpo tibio en la mañana...
+

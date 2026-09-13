@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Mayo 07, 2026 "
+date:       2026-05-07 00:00:00 +0000
+category:   Mayo-2026
+---
+Llegué a tu corazón:
+con mil susurros de amor,
+con trinos de picaflor
+y semillas de girasol...

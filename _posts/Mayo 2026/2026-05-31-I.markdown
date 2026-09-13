@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Mayo 31, 2026 "
+date:       2026-05-31 00:00:00 +0000
+category:   Mayo-2026
+---
+    La vida te abraza; 
+    te abraza y te amarra a ella;
+    te amarra y te envicia a ella;
+    y luego, sin piedad, te mata.

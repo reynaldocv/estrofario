@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Mayo 03, 2026 "
+date:       2026-05-03 00:00:00 +0000
+category:   Mayo-2026
+---
+    Quiero gritar — mas no me queda voz,
+    quiero llorar — mas no tengo razón...
+    Quiero ser libre y lo soy, mas se me da por gritar
+    al no saber qué hacer con esta vil libertad...

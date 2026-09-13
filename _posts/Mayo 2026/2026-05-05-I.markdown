@@ -1,0 +1,12 @@
+---
+layout:     poema
+title:      " Mayo 05, 2026 "
+date:       2026-05-05 00:00:00 +0000
+category:   Mayo-2026
+---
+    Te pedí de mil formas — que acabaras con mi vida,
+    y en vez de ello — me regalas el lápiz y el papel.
+    Hay un estruendo que destroza el silencio, me susurra: 
+    «esto te matará lentamente de mil maneras
+    y será divertido —  para vos será cruel...».
+

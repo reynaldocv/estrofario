@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Mayo 08, 2026 "
+date:       2026-05-08 00:00:00 +0000
+category:   Mayo-2026
+---
+    Me enamoré de tu voz; 
+    de lo que para mis oídos, tú eras.
+    Mas te encargaste de quitarme la venda
+    para poder ver mejor — verte a cómo eras...
+    piel morena...

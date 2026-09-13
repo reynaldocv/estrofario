@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Junio 22, 2026 "
+date:       2026-06-22 00:00:00 +0000
+category:   Junio-2026
+---
+    A donde voy — cargo un lápiz y un cuaderno
+    para abstraer las nuevas que me trae el viento,
+    mas termino — escribiendo mi detrimento...
+
+

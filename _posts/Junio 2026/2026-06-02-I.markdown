@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Junio 02, 2026 "
+date:       2026-06-02 00:00:00 +0000
+category:   Junio-2026
+---
+    Lo que me falta
+    no es de este mundo...
+    Me falta despertar el fuego
+    que nos regaló Prometeo...

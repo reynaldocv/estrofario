@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Junio 13, 2026 "
+date:       2026-06-13 00:00:00 +0000
+category:   Junio-2026
+---
+    Mamante — aguas claras nacidas para saciar la sed;
+    no mi sed — quizás la de los otros que rodean tu ser...
+    Yo soy más — del agua que nace en los nevados,
+    que sana el alma — fresca — y que enfría los labios...

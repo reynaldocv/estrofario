@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Junio 01, 2026 "
+date:       2026-06-01 00:00:00 +0000
+category:   Junio-2026
+---
+    No tengo censo alguno de la vida,
+    ni sé de su objetivo — y menos de su razón;
+    pero la entiendo y sé que no la quiero,
+    y al no quererla — brilla más que el sol...

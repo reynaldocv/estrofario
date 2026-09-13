@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Mayo 16, 2026 "
+date:       2026-05-16 00:00:00 +0000
+category:   Mayo-2026
+---
+    Esto de la vida no se me da bien — mas me gusta. 
+    Sus altibajos y sus paroxismos — se disfruta.
+    Mas en mi alma, está escrita con sangre, fuego y humo
+    que mi ser no pertenece a este mundo — ni a ninguno...
+

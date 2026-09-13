@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Junio 07, 2026 "
+date:       2026-06-07 00:00:00 +0000
+category:   Junio-2026
+---
+    Por más intentos que haga
+    sigo sin entender a la nada,
+    del vacío del alma
+    y del porqué hoy — estás en mi cama...
