@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Julio 06, 2026 "
+date:       2026-07-06 00:00:00 +0000
+category:   Julio-2026
+---
+    ¡Me gusta tu suave maldad!
+    La manera en la que agobías a los demás.
+    La forma sutil de tu locura insana;
+    de alguna manera, me alegra el alma.
+

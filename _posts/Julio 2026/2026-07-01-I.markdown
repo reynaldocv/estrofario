@@ -1,0 +1,14 @@
+---
+layout:     poema
+title:      " Julio 01, 2026 "
+date:       2026-07-01 00:00:00 +0000
+category:   Julio-2026
+---
+    ¡Y comenzó!
+    Vino con fuego, como sol; 
+    madera haciéndose carbón.
+    De mi salió...
+    ¡Todo acabó!
+
+
+

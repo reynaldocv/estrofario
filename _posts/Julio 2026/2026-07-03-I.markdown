@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Julio 03, 2026 "
+date:       2026-07-03 00:00:00 +0000
+category:   Julio-2026
+---
+    No hay palabras en el diccionario
+    para escribir lo que hay de podrido en mi alma...
+    Sería plasmar la melancolía 
+    de haber existido... sin haber nacido...
+

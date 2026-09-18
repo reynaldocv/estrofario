@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Julio 10, 2026 "
+date:       2026-07-10 00:00:00 +0000
+category:   Julio-2026
+---
+    Estoy pensando en ella.
+    ¿Será que la noche también piensa en mí?
+    No lo creo, debe estar durmiendo en su cama
+    y yo aquí, solo, escribiendo mis pendejadas...
+

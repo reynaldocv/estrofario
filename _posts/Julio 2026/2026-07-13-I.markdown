@@ -1,0 +1,12 @@
+---
+layout:     poema
+title:      " Julio 13, 2026 "
+date:       2026-07-13 00:00:00 +0000
+category:   Julio-2026
+---
+    Nunca mezcles amor con algo de ron y dos rocas; 
+    ni con una sonrisa, ni unos ojos achinados; 
+    menos con noches de juegos de besos no ligeros; 
+    ya que mi embriaguez me susurraba que ella me amaba,
+    mas ella, siendo ella, sólo sabía estar callada...
+

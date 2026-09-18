@@ -1,0 +1,16 @@
+---
+layout:     poema
+title:      " Julio 05, 2026 "
+date:       2026-07-05 00:00:00 +0000
+category:   Julio-2026
+---
+    ¿Cómo enamorarme de mi mismo?
+    Si soy la peor escoria del mundo, 
+    un soñador en una cuidad muerta,
+    un espureo estudiando las estrellas 
+    un imbécil queriendo ser un árbol... 
+    ¿Cómo enamorarme...? 
+    ¿Cómo enamorarme de algo que ya soy?
+    ¿Cómo enamorarme de algo que ya amo?
+
+

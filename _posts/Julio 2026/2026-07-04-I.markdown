@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Julio 04, 2026 "
+date:       2026-07-04 00:00:00 +0000
+category:   Julio-2026
+---
+    Lo que quiero en la vida... es no haber existido...
+    Mas esa accion de querer... me escupe en la cara,
+    dice "¡Calla esa bosa... al menos tú respiras!".
+

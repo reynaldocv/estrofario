@@ -4,7 +4,7 @@ title:      " Mayo 10, 2026 "
 date:       2026-05-10 00:00:00 +0000
 category:   Mayo-2026
 ---
-Quiero olvidarme de la vida,
-olvidarme de cómo estoy ahora
-recordando aquel atardecer,
-tú y yo queriendo desaparecer...
+    Quiero olvidarme de la vida,
+    olvidarme de cómo estoy ahora
+    recordando aquel atardecer,
+    tú y yo queriendo desaparecer...

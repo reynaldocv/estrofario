@@ -1,0 +1,10 @@
+---
+layout:     poema
+title:      " Julio 07, 2026 "
+date:       2026-07-07 00:00:00 +0000
+category:   Julio-2026
+---
+    !Cómo negarme...
+    si es tu felicidad la que quiero!
+    ¡Cómo negarme...
+    si es el único camino que tengo!

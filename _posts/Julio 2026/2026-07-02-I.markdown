@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Julio 02, 2026 "
+date:       2026-07-02 00:00:00 +0000
+category:   Julio-2026
+---
+    —Sabes que eso nunca me importó.
+    Todos los días en el ocaso 
+    muere el sol... y a él no le molesta...
+
+    —¡Eres un idiota! ¡Debería importarte!

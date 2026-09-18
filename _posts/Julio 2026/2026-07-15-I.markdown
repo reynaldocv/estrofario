@@ -1,0 +1,11 @@
+---
+layout:     poema
+title:      " Julio 15, 2026 "
+date:       2026-07-15 00:00:00 +0000
+category:   Julio-2026
+---
+    El sol de la mañana es amable 
+    mas condenado al ocaso va...
+    La noche llega con luna llena... 
+    y es tuya... mía, la soledad...
+

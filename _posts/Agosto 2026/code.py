@@ -1,6 +1,6 @@
 
 year = "2026"
-m = 2
+m = 8
 month = "0" + str(m) if m < 10 else str(m)
 
 Months = ["", "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setiembre", "Octubre", "Noviembre", "Diciembre"]
