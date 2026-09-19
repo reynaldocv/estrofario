@@ -4,7 +4,7 @@ title:      " Julio 08, 2026 "
 date:       2026-07-08 00:00:00 +0000
 category:   Julio-2026
 ---
-Ve a donde no te pueda encontrar,
-donde mis manos no te puedan alcanzar,
-donde las nubes te parezcan lejanas
-y las estrellas, todas ellas, entibien tu cama.
+    Ve a donde no te pueda encontrar,
+    donde mis manos no te puedan alcanzar,
+    donde las nubes te parezcan lejanas
+    y las estrellas, todas ellas, entibien tu cama.
